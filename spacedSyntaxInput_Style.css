@@ -1,0 +1,59 @@
+
+/* Global Attributes */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  margin-top: 20px;
+}
+
+select {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+header {
+  background-color: black;
+  color: aliceblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: cadetblue 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding {
+  margin: 0px;
+}
+
+
+
+#myInput {
+  float: left;
+}
