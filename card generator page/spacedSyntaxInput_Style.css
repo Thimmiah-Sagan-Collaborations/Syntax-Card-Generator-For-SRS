@@ -1,15 +1,11 @@
 
 /* Global Attributes */
-body {
-  font-family: 'Rubik', ;
-}
 
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
   color: #ffffff;
-  font-family: 'Rubik', ;
 }
 
 .autocomplete {
@@ -35,7 +31,6 @@ input {
 header {
   background-color: black;
   color: aliceblue;
-  font-family: 'Rubik', ;
   padding-top: 20px;
   min-height: 70px;
   border-bottom: cadetblue 3px solid;
