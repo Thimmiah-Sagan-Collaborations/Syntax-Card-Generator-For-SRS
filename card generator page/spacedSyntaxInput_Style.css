@@ -14,6 +14,10 @@
   margin-top: 20px;
 }
 
+a:visited a {
+  text-decoration: none;
+}
+
 select {
   border: 1px solid transparent;
   background-color: #f1f1f1;
@@ -51,8 +55,39 @@ header #branding {
   margin: 0px;
 }
 
+footer {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  color: #ffffff;
+}
 
 
 #myInput {
   float: left;
+}
+
+table {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+  margin: auto;
+  overflow: hidden;
+  width: 80%;
+}
+
+
+table td {
+  border: solid 3px gray;
+}
+
+table td:hover {
+  border: solid 3px magenta;
+}
+
+table::selection {
+  text-decoration: none;
+}
+
+table thead {
+  border: solid 3px green;
+  background-color: gray;
 }
