@@ -9,16 +9,16 @@
     <meta name="keywords" content="spaced repetition, srs, syntax, programming, education, learning, supermemo, anki">
 
     <title>Spaced Syntax</title>
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="spacedSyntaxInput_Style.css">
 
 </head>
 <!---->
-<body style="background-color:#313131;" >
+<body style="background-color:#313131; font-family:Rubik;" >
     <header>
-        <div class="container" style="width: 80%; margin: auto; overflow: hidden; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        <div class="container">
             <div id="branding">
-                <h1>SPACED SYNTAX</h1>
+                <h1><a href="#">SPACED SYNTAX</a></h1>
             </div>
         </div>
     </header>
@@ -37,18 +37,40 @@
                 <option value="Python">Python</option>
                 <option value="php">PHP</option>
             </select>
-            <h1>Enter Your Code</h1>
+            <h1> Enter Your Code</h1>
             <form autocomplete="off" action="/action_page.php">
                 <div class="autocomplete" style="width:300px;">
                     <input id="myInput" type="text" name="mySyntax" placeholder="Syntax">
                 </div>
                 <input type="submit">
             </form>
-            <h1>Select Card:</h1>
-            <iframe src="q_a results.html">
-            </iframe>
         </div>
     </section>
+
+    <section id="choosing">
+      <div class="container">
+        <div class="card_results">
+          <table style="border: solid 3px green;" class="container">
+            <thead>
+              <tr>
+                <th colspan="2">Select Card:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#" style="text-align:center;">Q</a></td>
+                <td>A</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>©Copyright 2050 by your mother. All rights reversed.</p>
+    </footer>
 <!---->
 </body>
 </html>

@@ -1,21 +1,21 @@
 
 /* Global Attributes */
-body {
-  font-family: 'Rubik', ;
-}
 
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
   color: #ffffff;
-  font-family: 'Rubik', ;
 }
 
 .autocomplete {
   /*the container must be positioned relative:*/
   position: relative;
   margin-top: 20px;
+}
+
+a:visited a {
+  text-decoration: none;
 }
 
 select {
@@ -35,7 +35,6 @@ input {
 header {
   background-color: black;
   color: aliceblue;
-  font-family: 'Rubik', ;
   padding-top: 20px;
   min-height: 70px;
   border-bottom: cadetblue 3px solid;
@@ -56,8 +55,39 @@ header #branding {
   margin: 0px;
 }
 
+footer {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  color: #ffffff;
+}
 
 
 #myInput {
   float: left;
+}
+
+table {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+  margin: auto;
+  overflow: hidden;
+  width: 80%;
+}
+
+
+table td {
+  border: solid 3px gray;
+}
+
+table td:hover {
+  border: solid 3px magenta;
+}
+
+table::selection {
+  text-decoration: none;
+}
+
+table thead {
+  border: solid 3px green;
+  background-color: gray;
 }
